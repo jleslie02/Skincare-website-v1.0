@@ -1,0 +1,120 @@
+*{margin:0; padding:0; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+body {
+	height:100%;
+	width: 100%;
+	font-family: 'open sans',arial,sans-serif;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  margin-bottom: -30px;
+}
+
+nav{
+			
+			font-size: 20px;
+			border:1px solid #ccc;
+			border-width:1px 0;
+			margin-top:15%;
+			padding:0;
+			text-align:center;
+			background-color: rgba(255,255,255,0.2);
+
+	}
+
+
+nav a{
+			display:inline-block;
+			padding:20px;
+			color:#3C444F
+		}
+a{
+			text-decoration:none;
+			color:#c00;
+}
+
+
+nav a:hover
+{
+	text-decoration:none;
+	color:#3C444F;
+	opacity:0.8;
+
+}
+#burger
+{
+	font-size: 23px;
+
+}
+
+#main_menu span 
+{
+	cursor: pointer;
+}
+
+
+#myCart{
+	line-height: 30px;
+	
+}
+
+#itemInCart{
+	font-size: 10px;
+	position:absolute;
+	font-weight:bolder;
+	color: #ffffff;
+	margin-top: -2px;
+	margin-left: -12px;
+}
+
+
+
+/* FOOOOOOOOOOOOTTTTEEERRRRR */
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height:150px;
+  background-color: #24241F;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+	
+	margin-top:50px;
+	padding:0;
+	
+	text-align: center;
+    width: auto;
+    color: #808080;
+    max-width: 680px;
+
+}
+.container .text-muted {
+	
+	color: #B7B8B8;
+
+}
+
+
+/* PAYMENT METHODSSSSSSSSSSSSS*/
+
+.payment-methods li{
+	list-style: none;
+	font-size: 35px;
+	display: inline;
+}
